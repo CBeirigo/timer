@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+    
+}
+
+html {
+     /* 1rem = 16px (User Agent) = 100% (User Agent) */
+     font-size: 62.5% /* 10px */
+}
+
+body {
+    background-color: #7697A0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#counter {
+    color: white;
+    font-weight: 500;
+    font-size: 12.8rem;
+    margin-bottom: 3rem;
+}
+
+.buttons {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-gap: 8.3rem;
+}
+a {
+    cursor: pointer;
+}
+
+.disabled {
+pointer-events: none;
+cursor: default;
+}
+
+#start img {
+    width: 9.4rem;
+    
+}
+
